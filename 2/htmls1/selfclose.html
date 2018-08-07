@@ -1,0 +1,560 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+<title>
+
+COMP2041 Week 03 Tutorial Questions
+
+</title>
+<!-- <link href="/~cs2041/18s2/flask.cgi/static/bootstrap.min.css" rel="stylesheet"> -->
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/>
+<link href="/~cs2041/18s2/flask.cgi/static/course.css?89571531358556.0" rel="stylesheet"/>
+<!-- <script type="text/javascript" src="/~cs2041/18s2/flask.cgi/static/jquery.min.js"></script> -->
+<!-- <script type="text/javascript" src="/~cs2041/18s2/flask.cgi/static/bootstrap.min.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="/~cs2041/18s2/flask.cgi/static/course.js?16311508896335.0" type="text/javascript"></script>
+<!-- prism code-highligting -->
+<link href="/~cs2041/18s2/flask.cgi/static/prism.css?24291522104693.0" rel="stylesheet"/>
+<!-- defer loading of prism.js script until DOM is loaded, as per PR #26 and https://stackoverflow.com/a/24070373 -->
+<script defer="" src="/~cs2041/18s2/flask.cgi/static/prism.js?97811522104693.0" type="text/javascript"></script>
+<link href="https://cgi.cse.unsw.edu.au/~cs2041/18s2/" rel="canonical"/>
+</head>
+<body class="container">
+<div class="row" id="heading">
+<div class="col-3 text-left">
+<a class="heading_link" href="https://cgi.cse.unsw.edu.au/~cs2041/18s2/" id="left_heading_link" target="_blank">COMP2041|COMP9041 18s2</a>
+</div>
+<div class="col-6 text-center">
+<span class="dropdown">
+<button aria-expanded="false" aria-haspopup="true" class="btn btn-lg btn-link dropdown-toggle heading_button" data-toggle="dropdown" id="week-selector" type="button">
+        Week 03 <span class="caret"></span>
+</button>
+<div aria-labelledby="week-selector" class="dropdown-menu">
+<a class="dropdown-item" href="http://cgi.cse.unsw.edu.au/~cs2041/18s2/tut/02/questions">Week 02</a>
+<a class="dropdown-item" href="http://cgi.cse.unsw.edu.au/~cs2041/18s2/tut/03/questions">Week 03</a>
+</div>
+</span>
+<span class="dropdown">
+<button aria-expanded="false" aria-haspopup="true" class="btn btn-lg btn-link dropdown-toggle heading_button" data-toggle="dropdown" id="tlb-selector" type="button">
+        Tutorial <span class="caret"></span>
+</button>
+<div aria-labelledby="tlb-selector" class="dropdown-menu">
+<a class="dropdown-item" href="http://cgi.cse.unsw.edu.au/~cs2041/18s2/tut/03/questions">Tutorial</a>
+<a class="dropdown-item" href="http://cgi.cse.unsw.edu.au/~cs2041/18s2/lab/03/questions">Laboratory</a>
+</div>
+</span>
+<span class="dropdown">
+<button aria-expanded="false" aria-haspopup="true" class="btn btn-lg btn-link dropdown-toggle heading_button" data-toggle="dropdown" id="qa-selector" type="button">
+        Questions <span class="caret"></span>
+</button>
+<div aria-labelledby="qa-selector" class="dropdown-menu">
+<a class="dropdown-item" href="http://cgi.cse.unsw.edu.au/~cs2041/18s2/tut/03/questions">Questions</a>
+<a class="dropdown-item" href="http://cgi.cse.unsw.edu.au/~cs2041/18s2/tut/03/answers">Sample Answers (tutors only)</a>
+</div>
+</span>
+</div>
+<div class="col-3 text-right">
+<a class="heading_link" href="https://cgi.cse.unsw.edu.au/~cs2041/18s2/" id="right_heading_link" target="_blank">COMP2041|COMP9041 18s2</a>
+</div>
+</div>
+<div class="tutlab tut">
+<ol>
+<li>
+Imagine that we have just typed a shell script into the file
+<code>myScript</code> in the current directory.
+We then attempt to execute the script and observe the following:
+
+<pre class="command_line">
+<kbd class="shell">my_first_shell_script.sh</kbd>
+my_first_shell_script.sh: command not found
+</pre>
+
+Explain the possible causes for this, and describe how to rectify them.
+
+<p></p>
+</li><li>
+Implement a shell script called <code>seq.sh</code> for writing sequences
+of integers onto its standard output, with one integer per line.
+The script can take up to three arguments, and behaves as follows:
+
+<ul>
+<li>
+<b>seq.sh <i>LAST</i></b> writes all numbers from 1 up to <b><i>LAST</i></b> inclusive, for example:
+
+
+
+
+
+
+
+
+
+
+
+<pre class="command_line" style="max-height: 32em;overflow:  auto;">
+<kbd class="shell">./seq.sh 5</kbd>
+1
+2
+3
+4
+5
+</pre>
+</li><li>
+<b>seq.sh <i>FIRST LAST</i></b> writes all numbers from <b><i>FIRST</i></b> up to <b><i>LAST</i></b> inclusive, for example:
+
+
+
+
+
+
+
+
+
+
+
+<pre class="command_line" style="max-height: 32em;overflow:  auto;">
+<kbd class="shell">./seq.sh 2 6</kbd>
+2
+3
+4
+5
+6
+</pre>
+</li><li> <b>seq <i>FIRST INCREMENT LAST</i></b>
+      writes the sequence <b><i>FIRST</i></b>, <b><i>FIRST + INCREMENT</i></b>, <b><i>FIRST + 2 * INCREMENT</i></b>, up to <b><i>p</i></b> <br/>
+    (where <b><i>p</i></b> is the largest integer in this sequence
+         that is less than or equal to <b><i>LAST</i></b>), for example:
+
+
+
+
+
+
+
+
+
+
+
+<pre class="command_line" style="max-height: 32em;overflow:  auto;">
+<kbd class="shell">./seq.sh 3 5 24</kbd>
+3
+8
+13
+18
+23
+</pre>
+</li></ul></li>
+<p></p>
+<li>
+Write a shell script, <b>no_blinking.sh</b>, which removes all HTML files in the current directory which use the
+<a href="https://en.wikipedia.org/wiki/Blink_element">blink element</a>:
+
+<pre class="command_line">
+<kbd class="shell">no_blinking.sh</kbd>
+Removing old.html because it uses the &lt;blink&gt; tag
+Removing evil.html because it uses the &lt;blink&gt; tag
+Removing bad.html because it uses the &lt;blink&gt; tag
+</pre>
+<p></p>
+
+Modify the shell script to instead take the HTML files to be checked as command line arguments and
+instead of removing them, add the suffix <b>.bad</b> to their name.
+<pre class="command_line">
+<kbd class="shell">no_blinking.sh awful.html index.html terrible.html </kbd>
+Renaming awful.html to awful.html.bad because it uses the &lt;blink&gt; tag
+Renaming terrible.html to terrible.html.bad because it uses the &lt;blink&gt; tag
+</pre>
+<p></p>
+</li><li>
+Write a shell script, <b>list_include_files.sh</b>, which for all the C source files (<code>.c</code> files)
+in the current directory prints the names of the files they include  (<code>.h</code> files), for example
+
+<pre class="command_line">
+<kbd class="shell">list_include_files.sh</kbd>
+count_words.c includes:
+    stdio.h
+    stdlib.h
+    ctype.h
+    time.h
+    get_word.h
+    map.h
+get_word.c includes:
+    stdio.h
+    stdlib.h
+map.c includes:
+    get_word.h
+    stdio.h
+    stdlib.h
+    map.h
+</pre>
+<p></p>
+</li><li>
+Consider the following columnated (space-delimited) data file
+containing contact information for various CSE academic staff:
+<p>
+</p><pre>
+G Heiser       Newtown      9381-1234
+S Jha          Kingsford    9621-1234
+C Sammut       Randwick     9663-1234
+R Buckland     Randwick     9663-9876
+J A Shepherd   Botany       9665-4321
+A Taylor       Glebe        9692-1234
+M Pagnucco     North Ryde   9868-6789
+</pre>
+<p>
+</p><div class="note1">
+<b>Note:</b> This data is fictitious. Do not ring these phone numbers.
+I have no idea whether they are real or not, but they are
+certainly not the correct phone numbers for the academic staff
+mentioned.
+</div>
+
+The data is currently sorted in phone number order.
+Can we use the <code>sort</code> filter to re-arrange the data into
+"telephone-book" order?
+If not, how would we need to change the file in order to
+achieve this?
+<p></p>
+</li><li>
+Consider the Unix password file (<code>/etc/passwd</code>):
+<p>
+</p><pre>
+root:ZHolHAHZw8As2:0:0:root:/root:/bin/bash
+jas:iaiSHX49Jvs8.:100:100:John Shepherd:/home/jas:/bin/bash
+andrewt:rX9KwSSPqkLyA:101:101:Andrew Taylor:/home/andrewt:/bin/cat
+postgres::997:997:PostgreSQL Admin:/usr/local/pgsql:/bin/bash
+oracle::999:998:Oracle Admin:/home/oracle:/bin/bash
+cs2041:rX9KwSSPqkLyA:2041:2041:COMP2041 Material:/home/cs2041:/bin/bash
+cs3311:mLRiCIvmtI9O2:3311:3311:COMP3311 Material:/home/cs3311:/bin/bash
+cs9311:fIVLdSXYoVFaI:9311:9311:COMP9311 Material:/home/cs9311:/bin/bash
+cs9314:nTn.JwDgZE1Hs:9314:9314:COMP9314 Material:/home/cs9314:/bin/bash
+cs9315:sOMXwkqmFbKlA:9315:9315:COMP9315 Material:/home/cs9315:/bin/bash
+</pre>
+<p>
+Provide a command that would produce each of the following results:
+</p><ol type="a">
+<li> display the first three lines of the file
+
+</li><li> display lines belonging to class accounts  <br/>
+<small>(assume that their login name
+starts with either "cs", "se", "bi" or "en", followed by a digit)</small>
+</li><li> display the user name of everyone whose shell is <code>/bin/bash</code>
+</li><li> create a tab-separated file <code>passwords.txt</code> containing
+only login name and password for all users
+</li></ol></li></ol>
+<p></p>
+<li>
+The following shell script emulates the <code>cat</code> command using
+the built-in shell commands <code>read</code> and <code>echo</code>.
+
+<pre>
+#!/bin/sh
+while read line
+do
+    echo "$line"
+done
+</pre>
+<ol type="a">
+<li> what are the differences between the above script and the real
+    <code>cat</code> command?
+</li><li> modify the script so that it can concatenate multiple files
+    from the command line, like the real <code>cat</code>
+</li></ol></li>
+<p>
+(Hint: shell control structures (e.g. <code>if</code>,
+<code>while</code>, <code>for</code>) are commands in their
+own right and can form a component of a pipeline)
+</p><p></p>
+<li>
+The <code>gzip</code> command compresses a text file and renames it
+to <code>oldName.gz</code>. The <code>zcat</code> command takes the
+name of a single compressed file as its argument and writes the
+original (non-compressed) text to its standard output.
+<p>
+Write a shell script called <code>zshow</code> that takes multiple
+<code>.gz</code> file names as its arguments, and displays the
+original text of each file, separated by the name of the file.
+</p><p>
+Consider the following example execution of <code>zshow</code>:
+</p><pre>
+   <kbd class="shell">zshow a.gz b.gz bad.gz c.gz</kbd>
+   ===== a =====
+   <i>... original contents of file "a" ...</i>
+   ===== b =====
+   <i>... original contents of file "b" ...</i>
+   ===== bad =====
+   No such file: bad.gz
+   ===== c =====
+   <i>... original contents of file "c" ...</i>
+</pre>
+<p></p>
+</li><li>
+Consider the marks data file from last week's tutorial,
+and assume that it is stored
+in a file called <code>Marks</code>.
+<pre>
+2111321 37 FL
+2166258 67 CR
+2168678 84 DN
+2186565 77 DN
+2190546 78 DN
+2210109 50 PS
+2223455 95 HD
+2266365 55 PS
+...
+</pre>
+Assume also that we have a file
+called <code>Students</code> that contains the names and student ids
+of for all students in the class, e.g.
+<pre>
+2166258 Chen, X
+2186565 Davis, PA
+2168678 Hussein, M
+2223455 Jain, S
+2190546 Phan, DN
+2111321 Smith, JA
+2266365 Smith, JD
+2210109 Wong, QH
+...
+</pre>
+Write a shell script that produces a list of names and their
+associated marks, sorted by name. E.g.
+<pre>
+67 Chen, X
+77 Davis, PA
+84 Hussein, M
+95 Jain, S
+78 Phan, DN
+37 Smith, JA
+55 Smith, JD
+50 Wong, QH
+</pre>
+<p>
+Note: there are many ways to do this, generally involving
+combinations of filters such as <code>cut</code>, <code>grep</code>,
+<code>sort</code>, <code>join</code>, etc.
+Try to think of more than one solution and discuss the merits of
+each.
+</p><p></p>
+</li><li>
+<p>
+Implement a shell script called <code>grades</code> that reads a sequence
+of (studentID,mark) pairs from its standard input and writes
+(studentID,grade) pairs to its standard output.
+The input pairs are written on a single line, separated by spaces,
+and the output should use a similar format.
+The script should also check whether the second value on each line
+looks like a valid grade, and output an appropriate message if it
+doesn't.
+The script can ignore any extra data occuring after the mark on each line.
+</p><p>
+Consider the following input and corresponding output to the
+program:
+</p><p>
+</p><table cellpadding="10">
+<tr> <td><b>Input</b></td> <td> </td> <td><b>Output</b></td> </tr>
+<tr>
+<td>
+<pre>
+2212345 65
+2198765 74
+2199999 48
+2234567 50 ok
+2265432 99
+2121212 hello
+2222111 120
+2524232 -1
+</pre>
+</td>
+<td> </td>
+<td>
+<pre>
+2212345 CR
+2198765 CR
+2199999 FL
+2234567 PS
+2265432 HD
+2121212 ?? (hello)
+2222111 ?? (120)
+2524232 ?? (-1)
+</pre>
+</td>
+</tr>
+</table>
+<p>
+To get you started, here is a framework for the script:
+</p><pre>
+#!/bin/sh
+while read id mark
+do
+    # <i>insert mark/grade checking here</i>
+done
+</pre>
+<p>
+Note that the shell's <code>read</code> operation assumes that the
+components on each input line are separated by spaces.
+How could we use this script if the data was supplied in a file
+that used commas to separate the (studentID,mark) components,
+rather than spaces?
+</p><p></p>
+</li><li>
+Write a shell script <code>time_date.sh</code> that prints the time and date
+once an hour.  It should do this until a new month is reached.
+<p>
+Reminder the <code>date</code> command produces output like this:
+
+</p><pre>
+Friday 5 August  17:37:01 AEST 2016
+</pre>
+<p></p>
+</li><li>
+<p>
+Consider a scenario where we have a directory containing two LaTeX
+files, <code>a.tex</code> and <code>b.tex</code>. The file
+<code>a.tex</code> is 20 lines long, and <code>b.tex</code> is
+30 lines long.
+What is the effect of each of the commands below?
+How will their output differ?
+</p>
+<pre class="command_line">
+<kbd class="shell">wc -l *.tex</kbd>
+<kbd class="shell">echo `wc -l *.tex`</kbd>
+</pre>
+<p></p>
+</li><li>
+<p>
+Write a shell script that displays the name and size of all files
+in the current directory that are bigger than (say) 100,000 bytes.
+</p>
+<p>
+(Hint: use <code>wc</code> to do the counting, and capture its output
+using back-ticks. How do you get rid of the file name and/or line
+and word counts?)
+</p>
+<p></p>
+</li><li>
+What is the output of each of the following pipelines if the text
+<pre>
+    this is big Big BIG
+    but this is not so big
+</pre>
+is supplied as the initial input to the pipeline?
+<ol type="a">
+<li> <code>tr -d ' ' | wc -w</code>
+<p></p>
+</li><li> <code>tr -cs 'a-zA-Z0-9' '\n' | wc -l</code>
+<p></p>
+</li><li> <code>tr -cs 'a-zA-Z0-9' '\n' | tr 'a-z' 'A-Z' | sort | uniq -c</code>
+<p></p>
+</li></ol></li>
+<li>
+Consider the standard "split-into-words" technique from the
+previous question:
+<pre>
+    tr -c -s 'a-zA-Z0-9' '\n' &lt; <i>someFile</i>
+</pre>
+Explain how this command works (i.e. what does each argument do)
+<p></p>
+</li><li>
+Assume that we are in a shell where the following shell variable
+assignments have been performed, and <code>ls</code> gives the following
+result:
+<pre class="command_line">
+<kbd class="shell">x=2  y='Y Y'  z=ls</kbd>
+<kbd class="shell">ls</kbd>
+    a       b       c
+</pre>
+What will be displayed as a result of the following <code>echo</code>
+commands:
+<p>
+</p><ol type="a">
+<li> <pre class="command_line"><kbd class="shell">echo a   b   c</kbd></pre>
+</li><li> <pre class="command_line"><kbd class="shell">echo "a   b   c"</kbd></pre>
+</li><li> <pre class="command_line"><kbd class="shell">echo $y</kbd></pre>
+</li><li> <pre class="command_line"><kbd class="shell">echo x$x</kbd></pre>
+</li><li> <pre class="command_line"><kbd class="shell">echo $xx</kbd></pre>
+</li><li> <pre class="command_line"><kbd class="shell">echo "$y"</kbd></pre>
+</li><li> <pre class="command_line"><kbd class="shell">echo '$y'</kbd></pre>
+</li><li> <pre class="command_line"><kbd class="shell">echo `$y`</kbd></pre>
+</li><li> <pre class="command_line"><kbd class="shell">echo `$z`</kbd></pre>
+</li><li> <pre class="command_line"><kbd class="shell">echo `echo a b c`</kbd></pre>
+</li></ol></li>
+<p></p>
+<li>
+The following C program and its equivalent in Java both aim to give precise
+information about their command-line arguments.
+<p>
+<b>C:</b>
+</p><pre class="program">
+// Display command line arguments, one per line
+#include &lt;stdio.h&gt;
+int main(int argc, char *argv[]) {
+    int i;
+    printf("#args  = %d\n", argc-1);
+    for (i = 1; i &lt; argc; i++)
+        printf("arg[%d] = \"%s\"\n", i, argv[i]);
+    return 0;
+}
+</pre>
+<b>Java:</b>
+<pre class="program">
+public class args {
+    public static void main(String args[]) {
+        System.out.println("#args  = " + args.length);
+        for (int i = 0; i &lt; args.length; i++)
+            System.out.println("arg[" + (i+1) + "] = \"" + args[i] + "\"");
+    }
+}
+</pre>
+Assuming that the C program is compiled into a command called <code>args</code>,
+consider the following examples of how it operates:
+<pre class="command_line">
+<kbd class="shell">args a b c</kbd>
+#args  = 3
+arg[1] = "a"
+arg[2] = "b"
+arg[3] = "c"
+<kbd class="shell">args "Hello there"</kbd>
+#args  = 1
+arg[1] = "Hello there"
+</pre>
+
+Assume that we are in a shell where the following shell variable
+assignments have been performed.
+<pre class="command_line">
+<kbd class="shell">x=2  y='Y Y'  z=ls</kbd>
+</pre>
+Assume that we are in a shell with the same variable assignments
+and the same current directory as the previous question.
+What will be the output of  the following:
+<p>
+</p><ol type="a">
+<li> <pre class="command_line"><kbd class="shell">args x y   z</kbd></pre>
+</li><li> <pre class="command_line"><kbd class="shell">args `ls`</kbd></pre>
+</li><li> <pre class="command_line"><kbd class="shell">args $y</kbd></pre>
+</li><li> <pre class="command_line"><kbd class="shell">args "$y"</kbd></pre>
+</li><li> <pre class="command_line"><kbd class="shell">args `echo "$y"`</kbd></pre>
+</li><li> <pre class="command_line"><kbd class="shell">args $x$x$x</kbd></pre>
+</li><li> <pre class="command_line"><kbd class="shell">args $x$y</kbd></pre>
+</li><li> <pre class="command_line"><kbd class="shell">args $xy</kbd></pre>
+</li></ol></li>
+<p></p>
+</div>
+<footer class="mt-3 container text-center no-print">
+<p class="text-muted">
+<strong>COMP2041|COMP9041 18s2: Software Construction</strong>
+is brought to you by <br/>
+the <a href="https://www.cse.unsw.edu.au/">School of Computer Science and Engineering</a>
+at the <a href="https://www.unsw.edu.au/">University of New South Wales</a>, Sydney.<blink/>
+For all enquiries, please email the class account at
+<a href="mailto:@cse.unsw.edu.au">cs2041@cse.unsw.edu.au</a><br/>
+<small>CRICOS Provider 00098G</small>
+</p>
+</footer>
+</body>
+</html>

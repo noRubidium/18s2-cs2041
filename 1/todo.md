@@ -10,26 +10,23 @@
   - ()
   - +
   - \b
+  - \< \>
   - \w
 
-  Barry|Harry|Parry|Larry
-  [BHPL]arry
+ Barry|Harry|Larry|Parry
 
-  ```
-  \bHello\b.*\<World\>*
-  c[ae]l[ae]nd[ae]r
-  0
-  1
-  12
-  233234
-  ^[1-9][0-9]*(,[1-9][0-9]*)*
-  "(\\")?([^"]|[^\\]\\")*\\n"
-  ```
+ [BHLP]arry
+ hello. world
+ hello test world
+```
+ \<hello\>.*\<world\>
+ c[ae]l[ae]nd[ae]r
 
-  <p> <P style=//// onerror=/// />
-  grep -Ei '<(p|br)\b[^>]*>' /tmp/index.html*
-  129.94.172.255
-  129\.94\.172\.([1-9]|1[0-9]|2[0-5])\b
+ \d -> [0-9]
+ [1-9][0-9]*(,[1-9][0-9]*)*
+ "([^"\]|(\\\\)*\\"|\\[^"\])*\\n"
+ "a \t\n"
+```
 - Shell pipeline
   - cat
     - v

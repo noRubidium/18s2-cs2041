@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 
     char url[200], buffer[256];
     sockfd = socket(AF_INET, SOCK_STREAM, 0);
-    if (sockfd < 0) fatal("ERROR opening socket");
+    if (sockfd < 0) fatal("ERROR # opening socket");
     server = gethostbyname("www.cse.unsw.edu.au");
     if (server == NULL) fatal("ERROR, no such host");
     bzero((char *)&serv_addr, sizeof(serv_addr));
