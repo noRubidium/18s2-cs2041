@@ -1,11 +1,10 @@
 #!/bin/sh
 
-sort Students -k2 |
-while read line
-do
-  student_number=`echo "$line" | egrep -o '[0-9]*'`
-  mark=`egrep "$student_number" Marks | cut -f2 -d' '`
-  student_name=`echo "$line" | cut -d' ' -f2-`
-
-  echo "$mark $student_name"
+sort -k2 Students |
+while read line; do
+  student_number=`echo $line | egrep '[0-9]{7}' -o`
+  name=`echo $line | cut -d' ' -f2-`
+  output=`egrep "$student_number" Marks | cut -d' ' -f2`
+  output="$output\t$name"
+  echo $output
 done

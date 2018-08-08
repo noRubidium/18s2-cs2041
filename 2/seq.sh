@@ -1,35 +1,38 @@
 #!/bin/sh
 
-# ./seq.sh 1 2 3
-if test $# -eq 1;
-then
-  start=1
-  end="$1"
-  step=1
-elif test $# -eq 2;
-then
-  start="$1"
-  end="$2"
-  step=1
-elif test $# -eq 3;
-then
-  start="$1"
-  end="$3"
-  step="$2"
+if test $# -eq 1; then
+  first=1
+  incr=1
+  last="$1"
+elif test $# -eq 2; then
+  first="$1"
+  incr=1
+  last=$2
+elif test $# -eq 3; then
+  first=$1
+  incr=$2
+  last=$3
 else
-  echo errr
+  echo "Expecting 1 or 2 or 3 args"
   exit 1
 fi
 
-if test $step -le 0;
-then
-  echo errr
+# Validate the variables
+if ! (echo "$first" | egrep -q "[1-9][0-9]*"); then
+  echo "Expecting int"
+  exit 1
+fi
+if ! (echo "$incr" | egrep -q "[1-9][0-9]*"); then
+  echo "Expecting int"
+  exit 1
+fi
+if ! (echo "$last" | egrep -q "[1-9][0-9]*"); then
+  echo "Expecting int"
   exit 1
 fi
 
-i=$start
-while test $i -le $end;
-do
+i="$first"
+while test "$i" -le "$last"; do
   echo $i
-  i=$(($i + $step))
+  i=$(($i + $incr))
 done
