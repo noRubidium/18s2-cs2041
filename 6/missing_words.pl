@@ -1,50 +1,40 @@
-#!/usr/bin/env perl -w
+#!/usr/bin/perl -w
 
 use strict;
 
 my $file1 = $ARGV[0];
 my $file2 = $ARGV[1];
 
-my %seen = {};
-my %result = {};
+my %result;
 
-open F2, '<', $file2 or die "file doesn't exist\n";
+my %seen;
+
+open F2, "<", $file2 or die ;
 while (my $line = <F2>) {
-    chomp $line;
-    $line = lc $line;
-    my @words = $line =~ /[a-z]+/g;
-    foreach my $word (@words) {
-      $seen{$word} = 1;
-    }
+  my @words = ($line =~ /[a-z]+/gi); #split /[^a-zA-Z]+/, $line;
+  foreach my $curr_word (@words) {
+    $curr_word =~ tr/A-Z/a-z/;
+    # $word = lc $word;
+    # check if it exist in file 2
+    $seen{$curr_word} = 1;
+  }
 }
 close F2;
 
-open F1, '<', $file1 or die "file doesn't exist\n";
-while (my $line = <F1>) {
-    chomp $line;
-    $line =~ tr/A-Z/a-z/;
-    my @words = $line =~ /[a-z]+/g;
-    foreach my $word (@words) {
-      if (defined $seen{$word}) {
-        $result{$word} = 1;
-      }
+open F1, "<", $file1 or die "$file1: failed to open file $!\n";
 
-      # check if the word exist in the second file
+while (my $line = <F1>) {
+  my @words = ($line =~ /[a-z]+/gi); #split /[^a-zA-Z]+/, $line;
+  foreach my $word (@words) {
+    $word =~ tr/A-Z/a-z/;
+    # $word = lc $word;
+    # check if it exist in file 2
+    if (!defined $seen{$word}) {
+      $result{$word} = 1;
     }
+  }
 }
+
 close F1;
 
-# open F2, '<', $file2 or die "file doesn't exist\n";
-# while (my $line = <F2>) {
-#     chomp $line;
-#     $line = lc $line;
-#     my @words = $line =~ /[a-z]+/g;
-#     foreach my $word (@words) {
-#       delete $seen{$word};
-#     }
-# }
-# close F2;
-
-foreach my $key (sort keys %result) {
-  print "$key\n";
-}
+print join "\n", sort keys %result;

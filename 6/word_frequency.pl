@@ -1,18 +1,18 @@
-#!/usr/bin/env perl -w
+#!/usr/bin/perl -w
 
 use strict;
 
-my %frequency;
+my %count;
 
-while (my $line = <>) {
-  chomp $line;
-  $line =~ tr/A-Z/a-z/;
-  my @words = $line =~ /[a-z]+/g; #split /\W+/, $line;
+while (my $line = <STDIN>) {
+  my @words = ($line =~ /[a-z]+/gi); #split /[^a-zA-Z]+/, $line;
   foreach my $word (@words) {
-    $frequency{$word}++;
+    $word =~ tr/A-Z/a-z/;
+    # $word = lc $word;
+    $count{$word}++;
   }
 }
 
-foreach my $word (reverse sort {$frequency{$a} <=> $frequency{$b}} keys %frequency) {
-  print "$frequency{$word}\t$word\n";
+foreach my $key (reverse sort {$count{$a} <=> $count{$b}} keys %count) {
+  print "$key $count{$key}\n";
 }
