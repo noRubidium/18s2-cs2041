@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"
+    
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/all/themes/engineering_2017/images/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://www.engineering.unsw.edu.au/computer-science-engineering/" />
+<link rel="shortlink" href="https://www.engineering.unsw.edu.au/computer-science-engineering/" />
+<meta property="og:site_name" content="Computer Science and Engineering" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.engineering.unsw.edu.au/computer-science-engineering/" />
+<meta property="og:title" content="Computer Science and Engineering" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.5" />
+    <meta http-equiv="cleartype" content="on" />
+    <title>Computer Science and Engineering</title>
+    <link type="text/css" rel="stylesheet" href="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/css/css_wiUdc6yLIm2BW9V2pVjJj010FGumsxfP-1oeGyvpZcM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/css/css_90cWLORRhjh4B5qCZ16wImS2ak7-Ryz4qOXmU1mXxfM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/css/css_QCAGft4OK6jU8eEEVU3MAkvS8TNoHpSX-D4x3BpD9Uc.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/css/css_TxO1OCy5OYLdMqnMosJc28qOMaogWNNqml4pLnZUjKo.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/css/css_nbQkyX063t1GD7RRw-S8_QTPUXynGkJuY1p5kBjo9yU.css" media="print" />
+<link type="text/css" rel="stylesheet" href="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/css/css_DtbfiiWMtX_CymZdd01wGgEzZkbLsyJAR_T-CyL1b5I.css" media="all" />
+    <script type="text/javascript" src="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/js/js_Jgr7_NkgU9zcGJXGaKoWBanGOA3y3hdVuUXOQucXrtM.js"></script>
+<script type="text/javascript" src="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/js/js_h8wxWSL-fsgWaNZYfV7NXUw687QvS_kf8CPoCRp2Lhc.js"></script>
+<script type="text/javascript" src="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/js/js_kZ_3zLsl5zAYUo5cwNCJ-7Jfh5gxEkldqA1k4Tbv6uw.js"></script>
+<script type="text/javascript" src="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/js/js_lnbzgN-MnQZqIc1u8i5-7SrBBMiI9RVt2hybZN7LLyg.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-36771316-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/js/js_TJLjA5H07ixdo8R-6YDEqRVGe4-2-JFnIfJorvFBPeM.js"></script>
+<script type="text/javascript" src="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/js/js_EtK_birzkYpSB9nDvtH0AWxETcowTG7qZvPQ4zM3cBM.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/computer-science-engineering\/","pathPrefix":"","ajaxPageState":{"theme":"engineering_2017","theme_token":"eldxvtq5-dtznA7cjAqJ8_OUwLuxuUbJQz3PtpD_DCU","jquery_version":"1.7","js":{"\/\/e.issuu.com\/embed.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/contrib\/nice_menus\/js\/jquery.bgiframe.js":1,"sites\/all\/modules\/contrib\/nice_menus\/js\/jquery.hoverIntent.js":1,"sites\/all\/modules\/contrib\/nice_menus\/js\/superfish.js":1,"sites\/all\/modules\/contrib\/nice_menus\/js\/nice_menus.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/contrib\/jquery_ui_filter\/jquery_ui_filter.js":1,"sites\/all\/modules\/contrib\/media_colorbox\/media_colorbox.js":1,"sites\/all\/modules\/custom\/unsw_ajax_banner\/js\/unsw_ajax_banner.min.js":1,"sites\/all\/modules\/custom\/unsw_news_filters_schools\/js\/unsw_news_filters_schools.min.js":1,"sites\/all\/modules\/custom\/unsw_site\/js\/unsw_site.min.js":1,"sites\/all\/modules\/contrib\/jquery_ui_filter\/accordion\/jquery_ui_filter_accordion.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/contrib\/views_load_more\/views_load_more.js":1,"sites\/all\/modules\/contrib\/views\/js\/base.js":1,"misc\/progress.js":1,"sites\/all\/modules\/contrib\/views\/js\/ajax_view.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/engineering_2017\/js\/jquery.slicknav.min.js":1,"sites\/all\/libraries\/flexslider\/jquery.flexslider-min.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/modules\/contrib\/colorbox_node\/colorbox_node.js":1,"sites\/all\/themes\/engineering_2017\/js\/imagesloaded.min.js":1,"sites\/all\/themes\/engineering_2017\/js\/equalis.js":1,"sites\/all\/themes\/engineering_2017\/js\/accordius.jquery.js":1,"sites\/all\/themes\/engineering_2017\/js\/jquery.fitvids.js":1,"sites\/all\/themes\/engineering_2017\/js\/site.js":1},"css":{"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"sites\/all\/modules\/contrib\/ldap\/ldap_user\/ldap_user.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/contrib\/colorbox_node\/colorbox_node.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/menu_attach_block\/menu_attach_block.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/ldap\/ldap_servers\/ldap_servers.admin.css":1,"sites\/all\/modules\/contrib\/nice_menus\/css\/nice_menus.css":1,"sites\/all\/modules\/contrib\/nice_menus\/css\/nice_menus_default.css":1,"sites\/all\/libraries\/flexslider\/flexslider.css":1,"sites\/all\/modules\/contrib\/flexslider\/assets\/css\/flexslider_img.css":1,"sites\/all\/modules\/custom\/unswsearchbox\/css\/unswsearchbox.css":1,"sites\/all\/modules\/contrib\/ds\/layouts\/ds_2col_fluid\/ds_2col_fluid.css":1,"sites\/all\/modules\/contrib\/field_group\/field_group.css":1,"sites\/all\/modules\/contrib\/field_collection\/field_collection.theme.css":1,"sites\/all\/themes\/engineering_2017\/assets\/fonts\/fontello\/css\/animation.css":1,"sites\/all\/themes\/engineering_2017\/assets\/fonts\/fontello\/css\/fontello.css":1,"sites\/all\/themes\/engineering_2017\/assets\/fonts\/fontello\/css\/fontello-ie7.css":1,"sites\/all\/themes\/engineering_2017\/assets\/fonts\/fontello\/css\/fontello-ie7-codes.css":1,"sites\/all\/themes\/engineering_2017\/css\/bean.css":1,"sites\/all\/themes\/engineering_2017\/css\/block.css":1,"sites\/all\/themes\/engineering_2017\/css\/form.css":1,"sites\/all\/themes\/engineering_2017\/css\/layout.css":1,"sites\/all\/themes\/engineering_2017\/css\/menu.css":1,"sites\/all\/themes\/engineering_2017\/css\/MyFontsWebfontsKit.css":1,"sites\/all\/themes\/engineering_2017\/css\/node.css":1,"sites\/all\/themes\/engineering_2017\/css\/page.css":1,"sites\/all\/themes\/engineering_2017\/css\/panel.css":1,"sites\/all\/themes\/engineering_2017\/css\/slicknav.css":1,"sites\/all\/themes\/engineering_2017\/css\/structure.css":1,"sites\/all\/themes\/engineering_2017\/css\/variables.css":1,"sites\/all\/themes\/engineering_2017\/css\/view.css":1,"sites\/all\/themes\/engineering_2017\/css\/responsive.css":1,"sites\/all\/themes\/engineering_2017\/css\/print.css":1,"public:\/\/css_injector\/css_injector_1.css":1,"public:\/\/css_injector\/css_injector_2.css":1,"public:\/\/css_injector\/css_injector_3.css":1,"public:\/\/css_injector\/css_injector_4.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"jQueryUiFilter":{"disabled":0,"accordionHeaderTag":"h3","accordionOptions":{"active":0,"animated":"slide","autoHeight":"false","clearStyle":"false","collapsible":"false","event":"click","scrollTo":0,"history":"false"}},"nice_menus_options":{"delay":"500","speed":"fast"},"views":{"ajax_path":"\/computer-science-engineering\/views\/ajax","ajaxViews":{"views_dom_id:487cc35bc14ed3712e388281eef28bda":{"view_name":"events","view_display_id":"block_5","view_args":"","view_path":"node\/4476","view_base_path":"events\/csv","view_dom_id":"487cc35bc14ed3712e388281eef28bda","pager_element":0}}},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":".region-content","extAlert":0,"extAlertText":"This link will take you to an external web site.","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"urlIsAjaxTrusted":{"\/computer-science-engineering\/":true},"field_group":{"html-element":"trio"},"colorbox_node":{"width":"600px","height":"480px"}});
+//--><!]]>
+</script>
+
+    <!--[if (gte IE 6)&(lte IE 8)]>
+    <script src="/computer-science-engineering/sites/all/themes/engineering_2017/js/selectivizr-min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="/computer-science-engineering/sites/all/themes/engineering_2017/js/html5-respond.js"></script>
+    <![endif]-->
+</head>
+<body class="html front not-logged-in no-sidebars page-node page-node- page-node-4476 node-type-layered-homepage layered school" >
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PVWTGG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PVWTGG');</script>
+<!-- End Google Tag Manager -->
+<div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+
+<a name="top"></a>
+<div id="page-wrapper">
+  <div id="page">
+    <div id="header" class="container without-secondary-menu">
+      <div class="section clearfix">
+
+        <!-- Faculty header -->
+        
+        <!-- School header -->
+                  <div id="header-top">
+                          <a href="https://www.unsw.edu.au" title="UNSW Australia" rel="UNSW Australia" id="logo">
+                <img src="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/all/themes/engineering_2017/images/UNSW.png" alt="UNSW Logo" />
+              </a>
+              <div id="faculty-site-name">
+                <a href="https://www.engineering.unsw.edu.au" title="Faculty of Engineering"><span>Engineering</span></a>
+              </div>
+                          <div class="region region-header">
+    <div id="block-unswsearchbox-header-search" class="block block-unswsearchbox">
+  <div class="block-inner-wrapper">
+
+            
+    <div class="content">
+      <form action="/computer-science-engineering/" method="post" id="unswsearchbox-search-block-form" accept-charset="UTF-8"><div><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /><div class="form-item form-type-textfield form-item-keyword">
+ <input title="Enter the terms you wish to search for." type="text" id="edit-keyword" name="keyword" value="" size="20" maxlength="128" class="form-text" />
+</div>
+<fieldset><legend>Search scope</legend><div id="edit-scope" class="form-radios"><div class="form-item form-type-radio form-item-scope">
+ <input type="radio" id="edit-scope-0" name="scope" value="0" class="form-radio" />  <label class="option" for="edit-scope-0">UNSW Websites </label>
+
+</div>
+<div class="form-item form-type-radio form-item-scope">
+ <input type="radio" id="edit-scope-1" name="scope" value="1" checked="checked" class="form-radio" />  <label class="option" for="edit-scope-1">This website </label>
+
+</div>
+</div></fieldset><input type="hidden" name="form_build_id" value="form-kI6TWh7Cff3bQToWcuzQ7m-OfSiQ2UOISn_J1iHP7A8" />
+<input type="hidden" name="form_id" value="unswsearchbox_search_block_form" />
+</div></form>    </div>
+
+  </div>
+</div>
+  </div>
+          </div>
+
+          <div id="header-separator"></div>
+
+          <div id="header-bottom">
+                          <div id="name-and-slogan">
+
+                                  <div id="site-name">
+                    <a href="/computer-science-engineering/" title="Home" rel="home"><span>Computer Science and Engineering</span></a>
+                  </div>
+                                
+              </div>
+
+                      </div>
+        
+      </div>
+    </div>
+
+    <div id="main-wrapper" class="clearfix container">
+
+      <!-- navigation region -->
+              <div id="navigation" class="clearfix">
+          <div class="section">
+              <div class="region region-navigation">
+    <div id="block-nice-menus-1" class="block block-nice-menus">
+  <div class="block-inner-wrapper">
+
+            
+    <div class="content">
+      <ul class="nice-menu nice-menu-down nice-menu-main-menu" id="nice-menu-1"><li class="menu-218 menu-path-front first odd "><a href="/computer-science-engineering/" class="active">Home</a></li>
+<li class="menu-2921 menu-path-node-4788  even "><a href="/computer-science-engineering/news">News</a></li>
+<li class="menu-3206 menu-path-node-5386  odd "><a href="/computer-science-engineering/upcoming-events">Events</a></li>
+<li class="menu-1920 menuparent  menu-path-node-3663  even "><a href="/computer-science-engineering/about-us">About us</a><ul><li class="menu-830 menu-path-node-125 first odd "><a href="/computer-science-engineering/about-us/head-of-school">Head of School</a></li>
+<li class="menu-2047  menu-path-node-3715  even "><a href="/computer-science-engineering/about-us/achievements">Achievements</a></li>
+<li class="menu-596 menu-path-node-22  odd "><a href="/computer-science-engineering/about-us/why-choose-unsw-computing">Why choose UNSW Computing?</a></li>
+<li class="menu-831  menu-path-node-126  even "><a href="/computer-science-engineering/about-us/organisational-structure">Organisational structure</a></li>
+<li class="menu-1902  menu-path-node-3644  odd "><a href="/computer-science-engineering/about-us/careers">Careers</a></li>
+<li class="menu-2473 menu-path-node-4280  even "><a href="/computer-science-engineering/about-us/accreditations">Accreditations</a></li>
+<li class="menu-2395 menu-path-node-4170  odd last"><a href="/computer-science-engineering/about-us/affiliations">Affiliations</a></li>
+</ul></li>
+<li class="menu-3005 menuparent  menu-path-node-5264  odd "><a href="/computer-science-engineering/courses-programs-at-unsw-computing-0">Courses &amp; programs</a><ul><li class="menu-930  menu-path-node-239 first odd "><a href="/computer-science-engineering/courses-programs/primary-high-school-programs">School programs</a></li>
+<li class="menu-2391 menu-path-node-4166  even "><a href="/computer-science-engineering/courses-programs/course-offerings">Course offerings</a></li>
+<li class="menu-2598  menu-path-node-4426  odd "><a href="/computer-science-engineering/courses-programs/undergraduate">Undergraduate</a></li>
+<li class="menu-1908  menu-path-node-3651  even "><a href="/computer-science-engineering/courses-programs/postgraduate-coursework">Postgraduate coursework</a></li>
+<li class="menu-1163 menu-path-node-2842  odd "><a href="/computer-science-engineering/courses-programs/postgraduate-research">Postgraduate research</a></li>
+<li class="menu-2623  menu-path-node-4453  even "><a href="/computer-science-engineering/courses-programs/enrolment-information">Enrolment information</a></li>
+<li class="menu-1911  menu-path-node-3654  odd "><a href="/computer-science-engineering/courses-programs/scholarships">Scholarships</a></li>
+<li class="menu-2626 menu-path-node-4456  even last"><a href="/computer-science-engineering/courses-programs/international-students">International students</a></li>
+</ul></li>
+<li class="menu-1913 menuparent  menu-path-node-3656  even "><a href="/computer-science-engineering/research">Research</a><ul><li class="menu-2387  menu-path-node-4163 first odd "><a href="/computer-science-engineering/research/research-activities">Research activities</a></li>
+<li class="menu-1906  menu-path-node-3649  even "><a href="/computer-science-engineering/research/postgraduate-research">Postgraduate research</a></li>
+<li class="menu-2450 menu-path-node-4239  odd "><a href="/computer-science-engineering/research/seminars">Seminars</a></li>
+<li class="menu-3033 menu-path-sresearchunsweduau-researcher  even "><a href="https://research.unsw.edu.au/researcher" target="_blank" title="">Find a researcher </a></li>
+<li class="menu-2517 menu-path-node-4330  odd "><a href="/computer-science-engineering/research/research-students">Research students</a></li>
+<li class="menu-3249 menu-path-sengineeringunsweduau-computer-science-engineering-academic-profiles-cse-academic-profilesoverlay-contextresearch  even last"><a href="https://www.engineering.unsw.edu.au/computer-science-engineering/academic-profiles/cse-academic-profiles#overlay-context=research" title="">Academic Profiles </a></li>
+</ul></li>
+<li class="menu-1921 menuparent  menu-path-node-3664  odd "><a href="/computer-science-engineering/alumni-industry">Alumni &amp; industry</a><ul><li class="menu-945  menu-path-node-257 first odd "><a href="/computer-science-engineering/alumni-industry/named-academic-positions">Named academic positions</a></li>
+<li class="menu-899  menu-path-node-195  even "><a href="/computer-science-engineering/alumni-industry/partner-with-us">Partner with us</a></li>
+<li class="menu-2526  menu-path-node-4340  odd "><a href="/computer-science-engineering/alumni-industry/industry-partners">Industry partners</a></li>
+<li class="menu-1904  menu-path-node-3646  even "><a href="/computer-science-engineering/alumni-industry/graduates-alumni">Graduates &amp; alumni</a></li>
+<li class="menu-2539  menu-path-node-4355  odd last"><a href="/computer-science-engineering/alumni-industry/catapult">Catapult</a></li>
+</ul></li>
+<li class="menu-1887 menu-path-node-3195  even "><a href="/computer-science-engineering/videos">Videos</a></li>
+<li class="menu-2832 menuparent  menu-path-node-4672  odd "><a href="/computer-science-engineering/help-resources">Help &amp; resources</a><ul><li class="menu-2385 menu-path-node-4104 first odd "><a href="/computer-science-engineering/help-resources/welcome-induction">Welcome induction</a></li>
+<li class="menu-1640  menu-path-node-4272  even "><a href="/computer-science-engineering/help-resources/students">For students</a></li>
+<li class="menu-2830 menu-path-node-4670  odd "><a href="/computer-science-engineering/help-resources/staff">For staff</a></li>
+<li class="menu-2831 menu-path-node-4671  even "><a href="/computer-science-engineering/help-resources/computing">For computing</a></li>
+<li class="menu-2897 menu-path-sengineeringunsweduau-computer-science-engineering-about-us-organisational-structure-facilities-unsw-computing-room-bookings  odd "><a href="https://www.engineering.unsw.edu.au/computer-science-engineering/about-us/organisational-structure/facilities/unsw-computing-room-bookings" title="">Room bookings</a></li>
+<li class="menu-1057 menu-path-smyunsweduau-  even "><a href="https://my.unsw.edu.au/" title="" target="_blank">myUNSW</a></li>
+<li class="menu-832 menu-path--about-us-organisational-structure-student-services  odd "><a href="/computer-science-engineering/about-us/organisational-structure/student-services" title="">Student Office</a></li>
+<li class="menu-2515 menu-path-node-4329  even "><a href="/computer-science-engineering/about-us/organisational-structure/computer-support-group/help-desk">Helpdesk</a></li>
+<li class="menu-1012  menu-path-node-310  odd "><a href="/computer-science-engineering/help-resources/health-safety">Health &amp; safety</a></li>
+<li class="menu-925 menu-path-node-234  even "><a href="/computer-science-engineering/help-resources/calendars-guides">Calendars &amp; guides</a></li>
+<li class="menu-2472 menu-path-node-4278  odd "><a href="/computer-science-engineering/help-resources/leaving-unsw-computing">Leaving UNSW Computing</a></li>
+<li class="menu-3215 menu-path-node-5427  even last"><a href="/computer-science-engineering/help-resources/unsw-computing-ready-reference-page" title="">UNSW Computing Ready Reference Page</a></li>
+</ul></li>
+<li class="menu-1919 menuparent  menu-path-node-3662  even "><a href="/computer-science-engineering/contact-us">Contact us</a><ul><li class="menu-709 menu-path-spublicunsweduau-ods-faces-staffsearch-afrloop24039964431236362-afrwindowmode0-adfctrl-state3y11snfcp-22 first odd "><a href="https://public.unsw.edu.au/ODS/faces/staffSearch?_afrLoop=24039964431236362&amp;_afrWindowMode=0&amp;_adf.ctrl-state=3y11snfcp_22&amp;_afrLoop=24039964431236362&amp;_afrWindowMode=0&amp;_adf.ctrl-state=3y11snfcp_22" title="">Staff directory</a></li>
+<li class="menu-971 menu-path-node-4184  even "><a href="/computer-science-engineering/about-us/organisational-structure/student-services">Student office</a></li>
+<li class="menu-2161 menu-path-node-3766  odd "><a href="/computer-science-engineering/contact-us/unsw-map">UNSW map</a></li>
+<li class="menu-2424 menu-path-node-4204  even "><a href="/computer-science-engineering/help-resources/for-students/frequently-asked-questions" title="Frequently asked questions">FAQs</a></li>
+<li class="menu-3027 menu-path-360tourunsweduau-campus-tour-  odd last"><a href="http://www.360tour.unsw.edu.au/campus-tour/" title="" target="_blank">Virtual tour of UNSW</a></li>
+</ul></li>
+<li class="menu-3248 menuparent  menu-path-sengineeringunsweduau-computer-science-engineering-research  odd last"><a href="https://www.engineering.unsw.edu.au/computer-science-engineering/research" title="">Academic Profiles </a><ul><li class="menu-3251 menu-path-node-5601 first odd last"><a href="/computer-science-engineering/academic-profiles/cse-academic-profiles">CSE Academic Profiles</a></li>
+</ul></li>
+</ul>
+    </div>
+
+  </div>
+</div>
+  </div>
+          </div>
+        </div>
+      
+      <!-- highlighted region -->
+      
+      <!-- banner region -->
+              <div id="banner" class="clearfix">
+          <div class="section">
+              <div class="region region-banner">
+    <div id="banner_ajax_marker"> <span style="display: none;">https://www.engineering.unsw.edu.au/computer-science-engineering/ajax/banner/4476</span> </div>  </div>
+          </div>
+        </div>
+      
+      <!-- standard page content -->
+      <div id="main" class="clearfix">
+        <div id="main-content" class="clearfix">
+
+          <!-- tabs, action links and messages -->
+                      <div class="tabs">
+                          </div>
+                              
+          <!-- breadcrumbs -->
+          
+          <!-- page title -->
+                              
+          <!-- content top region -->
+          
+          <!-- content -->
+                      <div id="content" class="clearfix">
+              <div class="section">
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+  <div class="block-inner-wrapper">
+
+            
+    <div class="content">
+      <div id="node-4476" class="node node-layered-homepage clearfix" about="/computer-science-engineering/home" typeof="sioc:Item foaf:Document">
+
+  
+      <span property="dc:title" content="Home" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content">
+      </div>
+
+  
+  
+</div>
+    </div>
+
+  </div>
+</div>
+  </div>
+              </div>
+            </div>
+          
+          <!-- content bottom region -->
+          
+        </div>
+
+        <!-- sidebar region -->
+        
+      </div>
+
+      <!-- layered page content -->
+              <div id="layered" class="clearfix">
+          <div class="section">
+              <div class="region region-layered">
+    <div id="block-menu-block-6" class="block block-menu-block layered-banner-menu">
+  <div class="block-inner-wrapper">
+
+            
+    <div class="content">
+      <div class="menu-block-wrapper menu-block-6 menu-name-menu-unsw-front-page-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first expanded menu-mlid-3006 closed"><a href="https://www.engineering.unsw.edu.au/computer-science-engineering/courses-programs-at-unsw-computing" title="">Future Students</a><ul class="menu"><li class="first leaf menu-mlid-3007"><a href="https://www.engineering.unsw.edu.au/computer-science-engineering/courses-programs/course-offerings" title="">Course Offerings</a></li>
+<span class="divider">|</span>
+<li class="leaf menu-mlid-3008"><a href="https://www.engineering.unsw.edu.au/computer-science-engineering/courses-programs/postgraduate-research/program-options" title="">Postgraduate Research</a></li>
+<span class="divider">|</span>
+<li class="last leaf menu-mlid-3009"><a href="https://www.engineering.unsw.edu.au/computer-science-engineering/courses-programs/scholarships" title="">Scholarships</a></li>
+
+</ul><span class="toggle"></span></li>
+
+<li class="expanded menu-mlid-3010 closed"><a href="https://www.engineering.unsw.edu.au/computer-science-engineering/courses-programs-at-unsw-computing" title="">Current Students</a><ul class="menu"><li class="first leaf menu-mlid-3011"><a href="https://www.engineering.unsw.edu.au/computer-science-engineering/courses-programs/enrolment-information/undergraduate" title="">Undergraduate</a></li>
+<span class="divider">|</span>
+<li class="leaf menu-mlid-3012"><a href="https://www.engineering.unsw.edu.au/computer-science-engineering/courses-programs/enrolment-information/postgraduate-coursework" title="">Postgraduate Coursework</a></li>
+<span class="divider">|</span>
+<li class="leaf menu-mlid-3013"><a href="https://www.engineering.unsw.edu.au/computer-science-engineering/courses-programs/postgraduate-research/enrolment-advice/re-enrolment" title="">Postgraduate Research</a></li>
+<span class="divider">|</span>
+<li class="leaf menu-mlid-3014"><a href="https://www.engineering.unsw.edu.au/computer-science-engineering/courses-programs/undergraduate/final-year-thesis" title="">UG Final Year Thesis</a></li>
+<span class="divider">|</span>
+<li class="last leaf menu-mlid-3015"><a href="https://www.engineering.unsw.edu.au/computer-science-engineering/courses-programs/undergraduate/industrial-training" title="">Industrial Training</a></li>
+
+</ul><span class="toggle"></span></li>
+
+<li class="expanded menu-mlid-1953 closed"><a href="/computer-science-engineering/courses-programs/primary-high-school-programs" title="">School Programs</a><ul class="menu"><li class="first leaf menu-mlid-1957"><a href="/computer-science-engineering/courses-programs/high-school-computing/progcomp" title="">ProgComp</a></li>
+<span class="divider">|</span>
+<li class="leaf menu-mlid-1956"><a href="/computer-science-engineering/courses-programs/school-programs/high-school-computing-hs1511" title="">High School Computing</a></li>
+<span class="divider">|</span>
+<li class="leaf menu-mlid-1958"><a href="/computer-science-engineering/courses-programs/school-programs/summer-workshops" title="">Summer Workshops</a></li>
+<span class="divider">|</span>
+<li class="last leaf menu-mlid-2724"><a href="/computer-science-engineering/courses-programs/high-school-computing/robotics-workshops" title="">Robotic Workshops</a></li>
+
+</ul><span class="toggle"></span></li>
+
+<li class="last expanded menu-mlid-1959 closed"><a href="/computer-science-engineering/node/4271" title="">Resources</a><ul class="menu"><li class="first leaf menu-mlid-2731"><a href="/computer-science-engineering/contact-us/staff-directory" title="">Staff Directory</a></li>
+<span class="divider">|</span>
+<li class="leaf menu-mlid-2727"><a href="/computer-science-engineering/about-us/organisational-structure/student-services" title="">Student Office</a></li>
+<span class="divider">|</span>
+<li class="leaf menu-mlid-1960"><a href="https://my.cse.unsw.edu.au" title="myCSE" target="_blank">myCSE</a></li>
+<span class="divider">|</span>
+<li class="leaf menu-mlid-1961"><a href="https://my.unsw.edu.au/" title="myUNSW" target="_blank">myUNSW</a></li>
+<span class="divider">|</span>
+<li class="leaf menu-mlid-1963"><a href="https://my.unsw.edu.au/student/resources/AcademicCalendar.html" target="_blank" title="Academic Calendar">Academic Calendar</a></li>
+<span class="divider">|</span>
+<li class="leaf menu-mlid-2723"><a href="/computer-science-engineering/about-us/organisational-structure/facilities/unsw-computing-room-bookings" title="">Room Bookings</a></li>
+<span class="divider">|</span>
+<li class="last leaf menu-mlid-2730"><a href="http://www.handbook.unsw.edu.au/" title="" target="_blank">UNSW Handbook</a></li>
+
+</ul><span class="toggle"></span></li>
+
+</ul></div>
+    </div>
+
+  </div>
+</div>
+<div id="block-bean-latest-news-layer" class="block block-bean news-layer block-bean-homepage-block-layer default" style="background-color: #ffffff;background-image: url(https://www.engineering.unsw.edu.au/computer-science-engineering/);">
+  <div class="block-inner-wrapper">
+
+            
+    <div class="content">
+      <div class="entity entity-bean bean-homepage-block-layer clearfix" about="/computer-science-engineering/block/latest-news-layer" typeof="">
+
+  <div class="content">
+    <div class="field field-name-field-layer-content-block field-type-blockreference field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><div id="block-views-news-block-7" class="block block-views">
+  <div class="block-inner-wrapper">
+
+              <h2>Latest news</h2>
+        
+    <div class="content">
+      <div class="view view-news view-id-news view-display-id-block_7 view-dom-id-5de2a2508f85c5c3da3ace6e8a78f420">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first clearfix">
+    <div class="row-wrapper">
+      
+    <div class="views-field views-field-field-thumbnail">        <div class="field-content"><a href="/computer-science-engineering/news/nsw-cyber-security-network"><img typeof="foaf:Image" src="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/Cyber%20Security.JPG" width="640" height="400" alt="NSW Cyber Security Network " title="Cyber Security.JPG" /></a></div>    </div>      
+    <div class="views-field views-field-field-article-type news">        <div class="field-content"><a href="/computer-science-engineering/article-type/news" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">News</a></div>    </div>      
+    <div class="views-field views-field-title matchheight">        <h2 class="field-content"><a href="/computer-science-engineering/news/nsw-cyber-security-network">NSW Cyber Security Network </a></h2>    </div>      
+    <div class="views-field views-field-body">        <div class="field-content">The NSW Network for Cyber Security and Engagement (The NSW Cyber Security Network) facilitates the growth of cyber-capability for New South Wales. It fosters collaboration between NSW universities which specialise...</div>    </div>  </div>
+  </div>
+  <div class="views-row views-row-2 views-row-even clearfix">
+    <div class="row-wrapper">
+      
+    <div class="views-field views-field-field-thumbnail">        <div class="field-content"><a href="/computer-science-engineering/news/robocup-2018"><img typeof="foaf:Image" src="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/Picture2.jpg" width="640" height="400" alt="RoboCup 2018" title="RoboCup 2018" /></a></div>    </div>      
+    <div class="views-field views-field-field-article-type news">        <div class="field-content"><a href="/computer-science-engineering/article-type/news" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">News</a></div>    </div>      
+    <div class="views-field views-field-title matchheight">        <h2 class="field-content"><a href="/computer-science-engineering/news/robocup-2018">RoboCup 2018</a></h2>    </div>      
+    <div class="views-field views-field-body">        <div class="field-content">The team won the final of the Robocup mixed-team competition that was held in Montreal last week. The score was B-Swift (3) def DoBerMan (0). B-Swift is the combined team...</div>    </div>  </div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last clearfix">
+    <div class="row-wrapper">
+      
+    <div class="views-field views-field-field-thumbnail">        <div class="field-content"><a href="/computer-science-engineering/news/visit-from-googles-vint-cerf"><img typeof="foaf:Image" src="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/Picture1.jpg" width="640" height="400" alt="Visit from Google&#039;s Vint Cerf " title="Picture1" /></a></div>    </div>      
+    <div class="views-field views-field-field-article-type news">        <div class="field-content"><a href="/computer-science-engineering/article-type/news" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">News</a></div>    </div>      
+    <div class="views-field views-field-title matchheight">        <h2 class="field-content"><a href="/computer-science-engineering/news/visit-from-googles-vint-cerf">Visit from Google&#039;s Vint Cerf </a></h2>    </div>      
+    <div class="views-field views-field-body">        <div class="field-content">On Wednesday 27th June, 2018 Vint Cerf, Vice President and Chief Internet Evangelist for Google, joined UNSW Scientia Professor Toby Walsh to discuss topics including the development and future of...</div>    </div>  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <p> </p>
+    </div>
+  
+  
+</div>    </div>
+
+  </div>
+</div></div>
+      </div>
+</div>  </div>
+</div>
+    </div>
+
+  </div>
+</div>
+<div id="block-block-20" class="block block-block more-button">
+  <div class="block-inner-wrapper">
+
+            
+    <div class="content">
+      <div class="more-link"><a href="/computer-science-engineering/news">More news<span class="pointer"> </span></a></div>
+    </div>
+
+  </div>
+</div>
+<div id="block-bean-upcoming-events-layer" class="block block-bean events-layer block-bean-homepage-block-layer default" style="background-color: #ffffff;background-image: url(https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/Homepage-layer-centre_0.png);">
+  <div class="block-inner-wrapper">
+
+            
+    <div class="content">
+      <div class="entity entity-bean bean-homepage-block-layer clearfix" about="/computer-science-engineering/block/upcoming-events-layer" typeof="">
+
+  <div class="content">
+      </div>
+</div>
+    </div>
+
+  </div>
+</div>
+<div id="block-block-21" class="block block-block more-button">
+  <div class="block-inner-wrapper">
+
+            
+    <div class="content">
+      <div class="more-link"><a href="/computer-science-engineering/upcoming-events">More events<span class="pointer"> </span></a></div>
+    </div>
+
+  </div>
+</div>
+<div id="block-bean-videos-layer" class="block block-bean videos-layer block-bean-homepage-block-layer default" style="background-color: #ffffff;background-image: url(https://www.engineering.unsw.edu.au/computer-science-engineering/);">
+  <div class="block-inner-wrapper">
+
+            
+    <div class="content">
+      <div class="entity entity-bean bean-homepage-block-layer clearfix" about="/computer-science-engineering/block/videos-layer" typeof="">
+
+  <div class="content">
+    <div class="field field-name-field-layer-content-block field-type-blockreference field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><div id="block-views-video-block-2" class="block block-views">
+  <div class="block-inner-wrapper">
+
+              <h2>Watch now</h2>
+        
+    <div class="content">
+      <div class="view view-video view-id-video view-display-id-block_2 view-dom-id-8f76409332ae9388d194e93a4e28a68d">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div class="row-wrapper">
+      
+    <div class="views-field views-field-title">        <span class="field-content"><a class="media-colorbox" href="media_colorbox/17174/teaser/und">
+<div class="video-image"><img typeof="foaf:Image" src="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/styles/video_image_front/public/video/Capture%20%281%29.PNG?itok=dJOjTWz4" width="700" height="393" alt="NERVO - People Grinnin&#039; ft The Child of Lov" title="NERVO - People Grinnin&#039; ft The Child of Lov" /></div>
+<div class="video-title">NERVO - People Grinnin&#039; ft The Child of Lov</div>
+<span class="play-button"></span>
+</a>
+</span>    </div>  </div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div class="row-wrapper">
+      
+    <div class="views-field views-field-title">        <span class="field-content"><a class="media-colorbox" href="media_colorbox/16618/teaser/und">
+<div class="video-image"><img typeof="foaf:Image" src="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/styles/video_image_front/public/video/edit_-%2811%29_0.png?itok=jRlKDUsf" width="700" height="393" alt="2015 NI Autonomous Robotics" title="2015 NI Autonomous Robotics" /></div>
+<div class="video-title">2015 NI Autonomous Robotics</div>
+<span class="play-button"></span>
+</a>
+</span>    </div>  </div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+    <div class="row-wrapper">
+      
+    <div class="views-field views-field-title">        <span class="field-content"><a class="media-colorbox" href="media_colorbox/16615/teaser/und">
+<div class="video-image"><img typeof="foaf:Image" src="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/styles/video_image_front/public/video/SLP%20Photo%20%281%29.png?itok=DvLtwu_q" width="700" height="393" alt="Student-led groups" title="Student-led groups" /></div>
+<div class="video-title">Student-led groups</div>
+<span class="play-button"></span>
+</a>
+</span>    </div>  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <p> </p>
+    </div>
+  
+  
+</div>    </div>
+
+  </div>
+</div></div>
+      </div>
+</div>  </div>
+</div>
+    </div>
+
+  </div>
+</div>
+<div id="block-block-22" class="block block-block more-button">
+  <div class="block-inner-wrapper">
+
+            
+    <div class="content">
+      <div class="more-link"><a href="/computer-science-engineering/videos">More videos<span class="pointer"> </span></a></div>
+    </div>
+
+  </div>
+</div>
+<div id="block-bean-study-with-us" class="block block-bean duo-layer block-bean-homepage-duo-layer default" style="background-color: #e7e7e7;background-image: url(https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/Homepage-layer-left_0.png);">
+  <div class="block-inner-wrapper">
+
+              <h2>Degrees and courses</h2>
+        
+    <div class="content">
+      <div class="entity entity-bean bean-homepage-duo-layer clearfix" about="/computer-science-engineering/block/study-with-us" typeof="">
+
+  <div class="content">
+    <div class="field-collection-container clearfix"><div class="field field-name-field-layer-component-duo field-type-field-collection field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first"><div class="field-collection-view clearfix view-mode-duo"><div  about="/computer-science-engineering/field-collection/field-layer-component-duo/555" typeof="" class="ds-2col-fluid entity entity-field-collection-item field-collection-item-field-layer-component-duo view-mode-duo clearfix">
+
+  
+      <div class="group-left">
+      <div class="field field-name-field-image field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><a href="http://www.engineering.unsw.edu.au/computer-science-engineering/courses-programs/undergraduate" target="_self" title="http://www.engineering.unsw.edu.au/computer-science-engineering/courses-programs..."><img typeof="foaf:Image" src="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/shutterstock_175274429_0_0.jpg" width="460" height="460" alt="Undergraduate degrees" title="Undergraduate degrees" /></a></div>
+      </div>
+</div>    </div>
+  
+      <div class="group-right">
+      <div class="group-matchheight-wrapper field-group-html-element matchheight"><div class="field field-name-field-title field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><h2><a href="http://www.engineering.unsw.edu.au/computer-science-engineering/courses-programs/undergraduate" target="_self" title="http://www.engineering.unsw.edu.au/computer-science-engineering/courses-programs...">Undergraduate degrees</a></h2></div>
+      </div>
+</div><div class="field field-name-field-description field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><p>UNSW Engineering offers more degree specialisations than anywhere else. Explore our range of undergraduate degrees to find your fit today.</p>
+</div>
+      </div>
+</div></div>    </div>
+  
+</div>
+
+</div></div>
+          <div class="field-item odd last"><div class="field-collection-view clearfix view-mode-duo field-collection-view-final"><div  about="/computer-science-engineering/field-collection/field-layer-component-duo/556" typeof="" class="ds-2col-fluid entity entity-field-collection-item field-collection-item-field-layer-component-duo view-mode-duo clearfix">
+
+  
+      <div class="group-left">
+      <div class="field field-name-field-image field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><a href="/computer-science-engineering/courses-programs/postgraduate-coursework" target="_self" title="/computer-science-engineering/courses-programs/postgraduate-coursework"><img typeof="foaf:Image" src="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/shutterstock_244199509_1_0.jpg" width="460" height="460" alt="Postgraduate degrees" title="Postgraduate degrees" /></a></div>
+      </div>
+</div>    </div>
+  
+      <div class="group-right">
+      <div class="group-matchheight-wrapper field-group-html-element matchheight"><div class="field field-name-field-title field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><h2><a href="/computer-science-engineering/courses-programs/postgraduate-coursework" target="_self" title="/computer-science-engineering/courses-programs/postgraduate-coursework">Postgraduate degrees</a></h2></div>
+      </div>
+</div><div class="field field-name-field-description field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><p>Join one of our world class postgraduate coursework or research programs.</p>
+</div>
+      </div>
+</div></div>    </div>
+  
+</div>
+
+</div></div>
+      </div>
+</div></div>  </div>
+</div>
+    </div>
+
+  </div>
+</div>
+<div id="block-bean-about-us" class="block block-bean solo-layer block-bean-homepage-solo-layer default" style="background-color: #ede5e1;background-image: url(https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/Homepage-layer-right.png);">
+  <div class="block-inner-wrapper">
+
+              <h2>About us</h2>
+        
+    <div class="content">
+      <div class="entity entity-bean bean-homepage-solo-layer clearfix" about="/computer-science-engineering/block/about-us" typeof="">
+
+  <div class="content">
+    <div class="field-collection-container clearfix"><div class="field field-name-field-layer-component-solo field-type-field-collection field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><div class="field-collection-view clearfix view-mode-solo field-collection-view-final"><div  about="/computer-science-engineering/field-collection/field-layer-component-solo/566" typeof="" class="ds-2col-fluid entity entity-field-collection-item field-collection-item-field-layer-component-solo view-mode-solo  clearfix">
+
+  
+      <div class="group-left">
+      <div class="field field-name-field-image field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><a href="/computer-science-engineering/about-us" target="_self" title="Learn more"><img typeof="foaf:Image" src="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/styles/homepage_layer_square/public/SO-counter_0.jpg?itok=ooeDOugM" width="250" height="250" alt="About the School" title="About the School" /></a></div>
+      </div>
+</div>    </div>
+  
+      <div class="group-right">
+      <div class="field field-name-field-title field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><h2><a href="/computer-science-engineering/about-us" target="_self" title="Learn more">About the School</a></h2></div>
+      </div>
+</div><div class="field field-name-field-description field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><p>Welcome to the School of Computer Science and Engineering (CSE), which is also commonly referred to as UNSW Computing. Founded in 1991 out of the former Department of Computer Science within the School of Electrical Engineering and Computer Science.</p>
+</div>
+      </div>
+</div><div class="field field-name-field-link field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><a href="/computer-science-engineering/about-us" target="_self">Learn more</a></div>
+      </div>
+</div>    </div>
+  
+</div>
+
+</div></div>
+      </div>
+</div></div>  </div>
+</div>
+    </div>
+
+  </div>
+</div>
+<div id="block-bean-highlights" class="block block-bean trio-layer block-bean-homepage-trio-layer default" style="background-color: #ffffff;background-image: url(https://www.engineering.unsw.edu.au/computer-science-engineering/);">
+  <div class="block-inner-wrapper">
+
+              <h2>Highlights</h2>
+        
+    <div class="content">
+      <div class="entity entity-bean bean-homepage-trio-layer clearfix" about="/computer-science-engineering/block/highlights" typeof="">
+
+  <div class="content">
+    <div class="field-collection-container clearfix"><div class="field field-name-field-layer-component-trio field-type-field-collection field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first"><div class="field-collection-view clearfix view-mode-trio"><div class="entity entity-field-collection-item field-collection-item-field-layer-component-trio clearfix" about="/computer-science-engineering/field-collection/field-layer-component-trio/557" typeof="">
+  <div class="content">
+    <div class="trio-image"><div class="field field-name-field-image field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><a href="https://www.engineering.unsw.edu.au/node/3914" target="_blank" title="View more"><img typeof="foaf:Image" src="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/Untitled_5_0_0.png" width="640" height="315" alt="Student-led Programs" title="Student-led Programs" /></a></div>
+      </div>
+</div></div><div class="trio-title"><div class="field field-name-field-title field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><h2><a href="https://www.engineering.unsw.edu.au/node/3914" target="_blank" title="View more">Student-led Programs</a></h2></div>
+      </div>
+</div></div><div class="required-fields matchheight"><div class="field-collection-container clearfix"><div class="field field-name-field-layer-subelement field-type-field-collection field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first"><div class="field-collection-view clearfix view-mode-sub-element"><div  about="/computer-science-engineering/field-collection/field-layer-subelement/559" typeof="" class="ds-2col-fluid entity entity-field-collection-item field-collection-item-field-layer-subelement view-mode-sub_element  clearfix">
+
+  
+      <div class="group-left">
+      <div class="field field-name-field-image field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><a href="https://www.engineering.unsw.edu.au/computer-science-engineering/about-us/achievements/redback-racing-team" target="_blank" title="&amp;gt;"><img typeof="foaf:Image" src="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/styles/sub_element/public/redback-student-led-group.png?itok=WgK41YDc" width="71" height="71" alt="Redback Racing" title="Redback Racing" /></a></div>
+      </div>
+</div>    </div>
+  
+      <div class="group-right">
+      <div class="field field-name-field-title field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><h2><a href="https://www.engineering.unsw.edu.au/computer-science-engineering/about-us/achievements/redback-racing-team" target="_blank" title="&amp;gt;">Redback Racing</a></h2></div>
+      </div>
+</div><div class="field field-name-field-description field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><p>Redback Racing designs, constructs and races an open-wheeled race car.</p>
+</div>
+      </div>
+</div><div class="field field-name-field-link field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><a href="https://www.engineering.unsw.edu.au/computer-science-engineering/about-us/achievements/redback-racing-team" target="_blank">&gt;</a></div>
+      </div>
+</div>    </div>
+  
+</div>
+
+</div></div>
+          <div class="field-item odd last"><div class="field-collection-view clearfix view-mode-sub-element field-collection-view-final"><div  about="/computer-science-engineering/field-collection/field-layer-subelement/2407" typeof="" class="ds-2col-fluid entity entity-field-collection-item field-collection-item-field-layer-subelement view-mode-sub_element  clearfix">
+
+  
+      <div class="group-left">
+      <div class="field field-name-field-image field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><a href="https://www.engineering.unsw.edu.au/computer-science-engineering/about-us/achievements/robocup" target="_blank" title="&amp;gt;"><img typeof="foaf:Image" src="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/styles/sub_element/public/AIBO.jpg?itok=rsjGH__t" width="71" height="71" alt="AIBO" title="AIBO" /></a></div>
+      </div>
+</div>    </div>
+  
+      <div class="group-right">
+      <div class="field field-name-field-title field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><h2><a href="https://www.engineering.unsw.edu.au/computer-science-engineering/about-us/achievements/robocup" target="_blank" title="&amp;gt;">RoboCup at UNSW</a></h2></div>
+      </div>
+</div><div class="field field-name-field-description field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><p>One of the aims of RoboCup is to build bipedal robots that can beat the FIFA World Champions by 2050!</p>
+</div>
+      </div>
+</div><div class="field field-name-field-link field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><a href="https://www.engineering.unsw.edu.au/computer-science-engineering/about-us/achievements/robocup" target="_blank">&gt;</a></div>
+      </div>
+</div>    </div>
+  
+</div>
+
+</div></div>
+      </div>
+</div></div></div><div class="trio-link"><div class="field field-name-field-link field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><a href="https://www.engineering.unsw.edu.au/node/3914" target="_blank">View more</a></div>
+      </div>
+</div></div>  </div>
+</div>
+</div></div>
+          <div class="field-item odd"><div class="field-collection-view clearfix view-mode-trio"><div class="entity entity-field-collection-item field-collection-item-field-layer-component-trio clearfix" about="/computer-science-engineering/field-collection/field-layer-component-trio/560" typeof="">
+  <div class="content">
+    <div class="trio-image"><div class="field field-name-field-image field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><a href="https://www.engineering.unsw.edu.au/node/88" target="_blank" title="View more"><img typeof="foaf:Image" src="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/CQELP14_08_0.jpg" width="640" height="315" alt="High school students" title="High school students" /></a></div>
+      </div>
+</div></div><div class="trio-title"><div class="field field-name-field-title field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><h2><a href="https://www.engineering.unsw.edu.au/node/88" target="_blank" title="View more">High school students</a></h2></div>
+      </div>
+</div></div><div class="required-fields matchheight"><div class="field-collection-container clearfix"><div class="field field-name-field-layer-subelement field-type-field-collection field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first"><div class="field-collection-view clearfix view-mode-sub-element"><div  about="/computer-science-engineering/field-collection/field-layer-subelement/561" typeof="" class="ds-2col-fluid entity entity-field-collection-item field-collection-item-field-layer-subelement view-mode-sub_element  clearfix">
+
+  
+      <div class="group-left">
+      <div class="field field-name-field-image field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><a href="https://www.engineering.unsw.edu.au/node/2831" target="_blank" title="&amp;gt;"><img typeof="foaf:Image" src="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/styles/sub_element/public/images.jpeg?itok=tiJ7rYbd" width="71" height="71" alt="Experience engineering" title="Experience engineering" /></a></div>
+      </div>
+</div>    </div>
+  
+      <div class="group-right">
+      <div class="field field-name-field-title field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><h2><a href="https://www.engineering.unsw.edu.au/node/2831" target="_blank" title="&amp;gt;">Experience engineering</a></h2></div>
+      </div>
+</div><div class="field field-name-field-description field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><p>UNSW Engineering offers a range of events for high school students to attend.</p>
+</div>
+      </div>
+</div><div class="field field-name-field-link field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><a href="https://www.engineering.unsw.edu.au/node/2831" target="_blank">&gt;</a></div>
+      </div>
+</div>    </div>
+  
+</div>
+
+</div></div>
+          <div class="field-item odd last"><div class="field-collection-view clearfix view-mode-sub-element field-collection-view-final"><div  about="/computer-science-engineering/field-collection/field-layer-subelement/562" typeof="" class="ds-2col-fluid entity entity-field-collection-item field-collection-item-field-layer-subelement view-mode-sub_element  clearfix">
+
+  
+      <div class="group-left">
+      <div class="field field-name-field-image field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><a href="https://www.engineering.unsw.edu.au/node/2750" target="_blank" title="&amp;gt;"><img typeof="foaf:Image" src="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/styles/sub_element/public/download.jpeg?itok=Gc7hcYV5" width="71" height="71" alt="Guaranteed entry" title="Guaranteed entry" /></a></div>
+      </div>
+</div>    </div>
+  
+      <div class="group-right">
+      <div class="field field-name-field-title field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><h2><a href="https://www.engineering.unsw.edu.au/node/2750" target="_blank" title="&amp;gt;">Guaranteed entry</a></h2></div>
+      </div>
+</div><div class="field field-name-field-description field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><p>Explore the UNSW entry requirements.</p>
+</div>
+      </div>
+</div><div class="field field-name-field-link field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><a href="https://www.engineering.unsw.edu.au/node/2750" target="_blank">&gt;</a></div>
+      </div>
+</div>    </div>
+  
+</div>
+
+</div></div>
+      </div>
+</div></div></div><div class="trio-link"><div class="field field-name-field-link field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><a href="https://www.engineering.unsw.edu.au/node/88" target="_blank">View more</a></div>
+      </div>
+</div></div>  </div>
+</div>
+</div></div>
+          <div class="field-item even last"><div class="field-collection-view clearfix view-mode-trio field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-layer-component-trio clearfix" about="/computer-science-engineering/field-collection/field-layer-component-trio/563" typeof="">
+  <div class="content">
+    <div class="trio-image"><div class="field field-name-field-image field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><a href="https://www.engineering.unsw.edu.au/node/2752" target="_blank" title="View more"><img typeof="foaf:Image" src="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/2016-01-11%2011.37.25_0.jpg" width="640" height="315" alt="Women in Engineering" title="Women in Engineering" /></a></div>
+      </div>
+</div></div><div class="trio-title"><div class="field field-name-field-title field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><h2><a href="https://www.engineering.unsw.edu.au/node/2752" target="_blank" title="View more">Women in Engineering</a></h2></div>
+      </div>
+</div></div><div class="required-fields matchheight"><div class="field-collection-container clearfix"><div class="field field-name-field-layer-subelement field-type-field-collection field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first"><div class="field-collection-view clearfix view-mode-sub-element"><div  about="/computer-science-engineering/field-collection/field-layer-subelement/564" typeof="" class="ds-2col-fluid entity entity-field-collection-item field-collection-item-field-layer-subelement view-mode-sub_element  clearfix">
+
+  
+      <div class="group-left">
+      <div class="field field-name-field-image field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><a href="https://www.engineering.unsw.edu.au/node/2784" target="_blank" title="&amp;gt;"><img typeof="foaf:Image" src="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/styles/sub_element/public/IMG_9445%20%281%29.jpg?itok=eKqaGjWa" width="71" height="71" alt="Women in Engineering Awards" title="Women in Engineering Awards" /></a></div>
+      </div>
+</div>    </div>
+  
+      <div class="group-right">
+      <div class="field field-name-field-title field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><h2><a href="https://www.engineering.unsw.edu.au/node/2784" target="_blank" title="&amp;gt;">Women in Engineering Awards</a></h2></div>
+      </div>
+</div><div class="field field-name-field-description field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><p>UNSW WIE Awards support UNSW's wider campaign to attract more female student to a career in engineering.</p>
+</div>
+      </div>
+</div><div class="field field-name-field-link field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><a href="https://www.engineering.unsw.edu.au/node/2784" target="_blank">&gt;</a></div>
+      </div>
+</div>    </div>
+  
+</div>
+
+</div></div>
+          <div class="field-item odd last"><div class="field-collection-view clearfix view-mode-sub-element field-collection-view-final"><div  about="/computer-science-engineering/field-collection/field-layer-subelement/565" typeof="" class="ds-2col-fluid entity entity-field-collection-item field-collection-item-field-layer-subelement view-mode-sub_element  clearfix">
+
+  
+      <div class="group-left">
+      <div class="field field-name-field-image field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><a href="https://www.engineering.unsw.edu.au/node/2753" target="_blank" title="&amp;gt;"><img typeof="foaf:Image" src="https://www.engineering.unsw.edu.au/computer-science-engineering/sites/cse/files/styles/sub_element/public/WiEC2015_a%20%281%29.jpg?itok=k93hwGTO" width="71" height="71" alt="Outreach programs" title="Outreach programs" /></a></div>
+      </div>
+</div>    </div>
+  
+      <div class="group-right">
+      <div class="field field-name-field-title field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><h2><a href="https://www.engineering.unsw.edu.au/node/2753" target="_blank" title="&amp;gt;">Outreach programs</a></h2></div>
+      </div>
+</div><div class="field field-name-field-description field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><p>Learn about the programs available to high school students.</p>
+</div>
+      </div>
+</div><div class="field field-name-field-link field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><a href="https://www.engineering.unsw.edu.au/node/2753" target="_blank">&gt;</a></div>
+      </div>
+</div>    </div>
+  
+</div>
+
+</div></div>
+      </div>
+</div></div></div><div class="trio-link"><div class="field field-name-field-link field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even first last"><a href="https://www.engineering.unsw.edu.au/node/2752" target="_blank">View more</a></div>
+      </div>
+</div></div>  </div>
+</div>
+</div></div>
+      </div>
+</div></div>  </div>
+</div>
+    </div>
+
+  </div>
+</div>
+<div id="block-block-17" class="block block-block newsletter-layer">
+  <div class="block-inner-wrapper">
+
+              <h2>Our newsletter</h2>
+        
+    <div class="content">
+      <div class="intro">
+<h3>Sign-up to our eNewsletter for our latest news, feature stories, profiles and alumni Q&amp;A.</h3>
+</div>
+<div class="more-link"><a href="/computer-science-engineering/sign-up-to-our-enewsletter" target="_self">Sign up now</a></div>
+<div class="spacer-bottom"> </div>
+    </div>
+
+  </div>
+</div>
+  </div>
+          </div>
+        </div>
+      
+      <!-- footer region -->
+              <div id="footer" class="clearfix">
+          <div class="section">
+              <div class="region region-footer">
+    <div id="block-block-14" class="block block-block footer-block">
+  <div class="block-inner-wrapper">
+
+              <h2>Faculty of Engineering</h2>
+        
+    <div class="content">
+      <p>UNSW, Sydney, NSW 2052, Australia<br />Current and future students<br />+61 2 9385 5000</p>
+    </div>
+
+  </div>
+</div>
+<div id="block-block-15" class="block block-block footer-block share-icons">
+  <div class="block-inner-wrapper">
+
+              <h2>Connect with UNSW Engineering</h2>
+        
+    <div class="content">
+      <p><a class="facebook-share-footer" href="https://www.facebook.com/UNSW.COMPUTING" target="_blank"> </a> <a class="linkedin-share" href="https://www.linkedin.com/groups?gid=6698023" target="_blank"> </a> <a class="twitter-share" href="https://twitter.com/unswcomputing" target="_blank"> </a> <a class="google-share" href="https://plus.google.com/117410294022781534618/posts" target="_blank"> </a> <a class="instagram-share" href="https://instagram.com/unswengineering/" target="_blank"> </a></p>
+    </div>
+
+  </div>
+</div>
+<div id="block-menu-block-5" class="block block-menu-block footer-block">
+  <div class="block-inner-wrapper">
+
+              <h2>Quick links</h2>
+        
+    <div class="content">
+      <div class="menu-block-wrapper menu-block-5 menu-name-menu-footer-quicklinks parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-3199"><a href="https://www.engineering.unsw.edu.au/computer-science-engineering/help-resources/for-students/frequently-asked-questions" title="Frequently asked questions">FAQs</a></li>
+<li class="leaf menu-mlid-1890"><a href="https://my.unsw.edu.au/student/resources/AcademicCalendar.html" target="_blank" title="">Academic calendar</a></li>
+<li class="leaf menu-mlid-1891"><a href="https://my.unsw.edu.au/" target="_blank" title="">myUNSW</a></li>
+<li class="leaf menu-mlid-1892"><a href="http://www.handbook.unsw.edu.au" target="_blank" title="">UNSW handbook</a></li>
+<li class="leaf menu-mlid-1893"><a href="http://www.engineering.unsw.edu.au/site-feedback" target="_blank" title="">Site feedback</a></li>
+<li class="leaf menu-mlid-1894"><a href="/computer-science-engineering/user" title="">Site login</a></li>
+<li class="last leaf menu-mlid-1895"><a href="https://eng-intranet.unsw.edu.au/Pages/Home.aspx" target="_blank" title="">Staff intranet</a></li>
+</ul></div>
+    </div>
+
+  </div>
+</div>
+  </div>
+          </div>
+        </div>
+      
+      <!-- footer bottom region -->
+              <div id="footer-bottom" class="clearfix">
+          <div class="section">
+              <div class="region region-footer-bottom">
+    <div id="block-block-1" class="block block-block">
+  <div class="block-inner-wrapper">
+
+            
+    <div class="content">
+      <div class="footer-text">Authorised by Dean, Faculty of Engineering, UNSW, Provider Code: 00098G, ABN: 57 195 873 179</div>
+<div class="footer-logos">
+<div class="footer-logo"><a href="http://www.engineersaustralia.org.au/" target="_blank"><img src="/computer-science-engineering/sites/eng/files/footer-ea.png" alt="Engineers Australia logo" border="0" /></a></div>
+<div class="footer-logo"><a href="http://www.topuniversities.com/qs-stars/" target="_blank"><img src="/computer-science-engineering/sites/eng/files/footer-qs.png" alt="QS Stars logo" border="0" /></a></div>
+<div class="footer-logo"><a href="https://go8.edu.au/" target="_blank"><img src="/computer-science-engineering/sites/eng/files/footer-go8.png" alt="Group of Eight logo" border="0" /></a></div>
+</div>
+    </div>
+
+  </div>
+</div>
+<div id="block-block-16" class="block block-block">
+  <div class="block-inner-wrapper">
+
+            
+    <div class="content">
+      <p><a href="http://www.unsw.edu.au/gen/pad/privacy.html">Privacy Policy</a> | <a href="http://www.unsw.edu.au/gen/pad/copyright.html">Copyright &amp; Disclaimer</a> | <a href="http://www.unsw.edu.au/accessibility">Accessibility</a></p>
+    </div>
+
+  </div>
+</div>
+  </div>
+          </div>
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="//e.issuu.com/embed.js"></script>
+</body>
+</html>
