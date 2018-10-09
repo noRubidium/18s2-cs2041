@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='en' dir='ltr'>
+   <head>
+      <meta charset='utf-8'>
+      <title>My todo list</title>
+      <meta name='viewport' content='width=device-width,initial-scale=1'>
+      <link rel='stylesheet' href='https://bootswatch.com/4/litera/bootstrap.min.css' type='text/css'>
+      <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/themes/prism-okaidia.min.css'>
+      <link rel='stylesheet' href='/todo.css'/>
+      <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'/>
+   </head>
+   <body>
+      <main role='main' id='main'>
+        <div class='container'>
+          <div class='row'>
+            <div class='col'/>
+            <div class='col' align='center'>
+              <h1>My Todo list</h1>
+              <form action='#' id='todo-form' autocomplete='off'>
+                <input id='todo-input' class='form-control form-control-lg' type='text' placeholder='Enter your todo item'/>
+              </form>
+              <ul id='todo-list' class='list-group'>
+                <li id='todo-list-item-0' class='list-group-item'>
+                  Example todo item: Cry <span class='float-right badge badge-primary badge-pill'>Finish</span>
+                </li>
+              </ul>
+            </div>
+            <div class='col'/>
+          </div>
+        </div>
+      </main>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/components/prism-core.min.js' charset='utf-8'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/components/prism-clike.min.js' charset='utf-8'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/components/prism-javascript.min.js' charset='utf-8'></script>
+      <script src='todo.js'></script>
+   </body>
+</html>
