@@ -65,7 +65,7 @@ class State {
         },
         body: JSON.stringify(currentItem)
       });
-      const { _id } = response.json();
+      const { _id } = await response.json();
       this.setState({
         todos: [{_id, content: currentItem}, ...todos],
         currentItem: ''
