@@ -3,6 +3,19 @@ const genId = (i) => `todo-list-item-${i}`;
 class State {
   constructor() {
     this.state = { currentItem: '', todos: [] };
+    this.getTodos();
+  }
+
+  async getTodos() {
+    try {
+      const response = await fetch('http://localhost:5000/todos');
+      const data = await response.json();
+      console.log(data);
+      const { todos } = data;
+      this.setState({todos});
+    } catch (e) {
+      console.log('Err',e);
+    }
   }
 
   setState(newState) {
@@ -39,19 +52,41 @@ class State {
     this.setState({ currentItem: e.target.value });
   }
 
-  addElement() {
+  async addElement() {
     const { currentItem, todos } = this.state;
     if (!currentItem) return;
-    this.setState({
-      todos: [currentItem, ...todos],
-      currentItem: ''
-    });
+    try {
+      const response = await fetch('http://localhost:5000/todos/add',
+      {
+        method: 'POST',
+        headers: {
+          Accept: 'application/json',
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(currentItem)
+      });
+      const { _id } = response.json();
+      this.setState({
+        todos: [{_id, content: currentItem}, ...todos],
+        currentItem: ''
+      });
+    } catch (e) {
+      console.log('Err',e);
+    }
   }
 
   removeElement (id) {
-    return function () {
-      this.state.todos.splice(id, 1);
-      this.render();
+    return async () => {
+      try {
+        const removeId = this.state.todos[id]._id;
+        await fetch(`http://localhost:5000/todos/delete/${removeId}`, {
+          method: 'POST'
+        });
+        const { todos } = this.state;
+        this.setState({ todos: todos.filter((_, i) => i !== id)});
+      } catch (e) {
+        console.log('Err',e);
+      }
     };
   }
 
@@ -63,8 +98,9 @@ class State {
     input.value = currentItem;
     const curr = this.renderItem(currentItem || 'Example todo item: Cry', 0);
     list.appendChild(curr);
+    console.log(todos);
     todos.map((item, i) => {
-      const mappedItem = this.renderItem(item, i + 1);
+      const mappedItem = this.renderItem(item.content, i + 1);
       list.appendChild(mappedItem);
     });
 
