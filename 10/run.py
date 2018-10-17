@@ -34,7 +34,6 @@ def add_todo():
 
 @app.route("/todos/delete/<_id>", methods=['POST'])
 def delete_todo(_id):
-    print(_id)
     state.delete_todo(_id)
     return jsonify(_id=_id)
 
